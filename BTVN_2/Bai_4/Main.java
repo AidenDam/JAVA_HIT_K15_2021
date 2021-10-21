@@ -17,7 +17,7 @@ public class Main
 	    	else str += a[i];
 	    }
 
-		System.out.println(str);
+		System.out.println("Chuoi sau khi chuan hoa la: " + str);
   	}
 
   	public static String readStr(String title) {
