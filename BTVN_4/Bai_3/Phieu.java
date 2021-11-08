@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class Phieu
 {
-	private static String code;
-	private static int n;
-	private static Hang[] x;
+	private String code;
+	private int n;
+	private Hang[] x;
 
 	public static int readInt(String title, int min) {
 		Scanner ip = new Scanner(System.in);

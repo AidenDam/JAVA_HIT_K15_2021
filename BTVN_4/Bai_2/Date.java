@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Date
 {
-	private static int day, month, year;
+	private int day, month, year;
 
 	public static int readInt(String title, int min) {
 		Scanner ip = new Scanner(System.in);

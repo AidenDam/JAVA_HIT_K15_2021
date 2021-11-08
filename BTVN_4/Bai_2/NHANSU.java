@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class NHANSU
 {
-	private static String code, name;
-	private static Date NS = new Date();
+	private String code, name;
+	private Date NS = new Date();
 
 	public static String readStr(String title) {
 		Scanner ip = new Scanner(System.in);

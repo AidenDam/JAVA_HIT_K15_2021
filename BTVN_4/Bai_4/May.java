@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class May
 {
-	private static String code, type, status;
+	private String code, type, status;
 
 	public static String readStr(String title) {
 		Scanner ip = new Scanner(System.in);

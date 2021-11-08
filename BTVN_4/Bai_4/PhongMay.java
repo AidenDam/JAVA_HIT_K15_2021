@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class PhongMay
 {
-	private static String code, name;
-	private static float acreage;
-	private static QuanLy x;
-	private static int n;
-	private static May[] y;
+	private String code, name;
+	private float acreage;
+	private QuanLy x;
+	private int n;
+	private May[] y;
 
 	public static int readInt(String title, int min) {
 		Scanner ip = new Scanner(System.in);

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class QuanLy
 {
-	private static String code, name;
+	private String code, name;
 
 	public static String readStr(String title) {
 		Scanner ip = new Scanner(System.in);

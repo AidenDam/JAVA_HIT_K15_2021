@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Hang
 {
-	private static String code, name;
-	private static float price;
+	private String code, name;
+	private float price;
 
 	public static float readFloat(String title, float min) {
 		Scanner ip = new Scanner(System.in);

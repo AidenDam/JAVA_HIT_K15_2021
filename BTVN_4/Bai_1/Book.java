@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class Book
 {
-	private static String code, name, publisher;
-	private static int pageNumbers;
-	private static float price;
+	private String code, name, publisher;
+	private int pageNumbers;
+	private float price;
 
 	public static int readInt(String title, int min) {
 		Scanner ip = new Scanner(System.in);
